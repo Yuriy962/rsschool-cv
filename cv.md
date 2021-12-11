@@ -1,6 +1,6 @@
 # Yuriy Buranov
 
-
+![image](assets/avatar.jpg)
  ## Contacts
 
 | __phone__  | [8 (917) 819-20-62](tel:+79178192062)          |
