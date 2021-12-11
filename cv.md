@@ -1,6 +1,7 @@
 # Yuriy Buranov
 
-![image](assets/avatar.jpg)
+<img src="../assets/avatar.jpg" width="500" />
+
  ## Contacts
 
 | __phone__  | [8 (917) 819-20-62](tel:+79178192062)          |
@@ -75,8 +76,8 @@ __JavaScript__
 | Dates | Official place |
 |------------|----------------|
 | December 2020 - Present | LLC "SEO-PROSTOR"|
-| Jule 2020 - November 2020 | OOO "PROSTIE RESHENIYA" |
-| September 2019 - May 2020 | OOO "Relevant Media" |
+| Jule 2020 - November 2020 | LLC "PROSTIE RESHENIYA" |
+| September 2019 - May 2020 | LLC "Relevant Media" |
 
 ## Education
 
