@@ -1,25 +1,24 @@
 # Yuriy Buranov
 
-<img src="../assets/avatar.jpg" width="500" />
+<img src="assets/avatar.jpg" width="500" />
 
- ## Contacts
+## Contacts
 
-| __phone__  | [8 (917) 819-20-62](tel:+79178192062)          |
-|------------|------------------------------------------------|
-| __email__  | [Yura962Bur@mail.ru](mailto:Yura962Bur@mail.ru)|
-|__discord__ | Юрий Буранов #5146							  |
-|__telegram__| [t.me/yura962bur](https://t.me/yura962bur)     |
-|__github__  | [Yuriy962](https://github.com/Yuriy962)        |
-
-
+| __phone__   | [8 (917) 819-20-62](tel:+79178192062)          |
+|-------------|------------------------------------------------|
+| __email__   | [Yura962Bur@mail.ru](mailto:Yura962Bur@mail.ru)|
+| __discord__ | Юрий Буранов #5146							   |
+| __telegram__| [t.me/yura962bur](https://t.me/yura962bur)     |
+| __github__  | [Yuriy962](https://github.com/Yuriy962)        |
 
 ## Summary
-
+Hello! 
+My name is Yuriy, and I'm from Samara. I'm 24.
+I work as web-developer about 2 year. Primarily, I worked with PHP and some CMS as Bitrix, ModX, Joomla (etc). But always my goal has been career development in frontend development. Thereby I learned HTML, CSS, JavaScript(including jQuery) and became layout specialist. My strong points are responsibility, purposefulness, pedantry. And I have good analytical skills and clear goal - i want to become strong front-end developer in the world of web-development. 
 
 ## Skills
 * HTML, BEM;
-* CSS, bootstrap;
-* SASS, SCSS;
+* CSS, bootstrap, SASS, SCSS;
 * Figma (the basics);
 * JavaScript (the basics), jQuery;
 * Gulp;
