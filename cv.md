@@ -4,7 +4,7 @@
 
 ## Contacts
 
-| __phone__   | [8 (917) 819-20-62](tel:+79178192062)          |
+|__phone__   | [8 (917) 819-20-62](tel:+79178192062)          |
 |-------------|------------------------------------------------|
 | __email__   | [Yura962Bur@mail.ru](mailto:Yura962Bur@mail.ru)|
 | __discord__ | Юрий Буранов #5146							   |
@@ -74,7 +74,8 @@ __JavaScript__
 ```
 
 ## Experience
-| Dates                     | Official place          |
+
+| Dates| Official place |
 |---------------------------|-------------------------|
 | December 2020 - Present   | LLC "SEO-PROSTOR"       |
 | Jule 2020 - November 2020 | LLC "PROSTIE RESHENIYA" |
@@ -83,16 +84,18 @@ __JavaScript__
 ## Education
 
 ### __Online learning__
-| Year       | Education                |
+
+| Year | Education |
 |------------|--------------------------|
 | 2019       | Web-developer, udemy.com |
 
 ### __Higher education__
-| Year | Education                                                                 |
+
+| Year | Education |
 |------------|---------------------------------------------------------------------|
 |2015 - 2019| SSTU, Institute of Automation and Information Technology, programmer |
 |2016 - 2019| SSTU, Institute of Additional Distance Technology, media translator  |
 
 
 ## English
-Pre-intermediate/Intermediate (A2/B1)
+Pre-intermediate (A2)
