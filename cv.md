@@ -12,9 +12,11 @@
 | __github__  | [Yuriy962](https://github.com/Yuriy962)        |
 
 ## Summary
-Hello! 
-My name is Yuriy, and I'm from Samara. I'm 24.
-I work as web-developer about 2 year. Primarily, I worked with PHP and some CMS as Bitrix, ModX, Joomla (etc). But always my goal has been career development in frontend development. Thereby I learned HTML, CSS, JavaScript(including jQuery) and became layout specialist. My strong points are responsibility, purposefulness, pedantry. And I have good analytical skills and clear goal - i want to become strong front-end developer in the world of web-development. 
+Hello!  
+My name is Yuriy, and I'm from Samara. I'm 24.  
+I work as web-developer about 2 year. Primarily, I worked with PHP and some CMS as Bitrix, ModX, Joomla (etc). But always my goal has been career development in frontend development. Thereby I learned HTML, CSS, JavaScript(including jQuery) and became layout specialist.
+
+My strong points are responsibility, purposefulness, pedantry. And I have good analytical skills and clear goal - i want to become strong front-end developer in the world of web-development. 
 
 ## Skills
 * HTML, BEM;
