@@ -23,10 +23,10 @@
 * JavaScript (the basics), jQuery;
 * Gulp;
 * PHP (the basics);
-* 1C-Bitrix, ModX, Joomla;
+* 1C-Bitrix, ModX, Joomla.
 
 ## Example of My Code
-    The fragment of HTML and JS code for menu of landing page.  
+The fragment of HTML and JS code for menu of landing page.  
 __HTML__
 ```html
     <div class="hamburger">
@@ -72,9 +72,25 @@ __JavaScript__
 ```
 
 ## Experience
-
+| Dates | Official place |
+|------------|----------------|
+| December 2020 - Present | LLC "SEO-PROSTOR"|
+| Jule 2020 - November 2020 | OOO "PROSTIE RESHENIYA" |
+| September 2019 - May 2020 | OOO "Relevant Media" |
 
 ## Education
 
+### __Online learning__
+| Year | Education |
+|------------|----------------|
+| 2019 | Web-developer, udemy.com |
+
+### __Higher education__
+| Year | Education |
+|------------|----------------|
+|2015 - 2019| SSTU, Institute of Automation and Information Technology, programmer |
+|2016 - 2019| SSTU, Institute of Additional Distance Technology, media translator |
+
 
 ## English
+Pre-intermediate/Intermediate (A2/B1)
