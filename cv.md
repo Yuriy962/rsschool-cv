@@ -14,15 +14,16 @@
 ## Summary
 Hello!  
 My name is Yuriy, and I'm from Samara. I'm 24.  
-I work as web-developer about 2 years. First of all, I worked with PHP and some CMS as Bitrix, ModX, Joomla (etc). But always my goal has been career development in frontend development. Thereby I learned HTML, CSS, JavaScript(including jQuery) and became layout specialist.
+I work as web-developer about 2 years.I started working with PHP and some CMS as Bitrix, ModX, Joomla (etc). But my goal is developing in frontend. It was the reason why I learned HTML, CSS, JavaScript(including jQuery library). And now I'm a layout specialist.
 
-My strong points are responsibility, purposefulness, pedantry. And I have good analytical skills and clear goal - i want to become strong front-end developer in the world of web-development. 
+My character strengths are sociability, responsibility, determination, pedantry. And I have good analytical skills and my real ambition is to be qualified front-end developer.
 
 ## Skills
 * HTML, BEM;
 * CSS, bootstrap, SASS, SCSS;
 * Figma (the basics);
 * JavaScript (the basics), jQuery;
+* Git, Github
 * Gulp;
 * PHP (the basics);
 * 1C-Bitrix, ModX, Joomla.
