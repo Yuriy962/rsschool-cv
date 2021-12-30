@@ -85,13 +85,21 @@ a:hover {
   color: #E025CE;
 }
 
-.text > p,
-.text > strong {
+.text {
+  padding: 10px;
+}
+
+.text p,
+.text strong {
   font-family: 'Montserrat';
   font-size: 1rem;
 }
 
 .section {
+  padding: 10px 20px;
+}
+
+.section:first-child, .section:last-child {
   padding: 25px 20px;
 }
 
@@ -410,6 +418,7 @@ h1 {
           flex-wrap: wrap;
   list-style: none;
   padding: 20px 0;
+  padding-bottom: 0;
 }
 
 .skills-item {
@@ -458,8 +467,28 @@ h1 {
   font-size: 22px;
 }
 
+.skills-item:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+
 .skills-img {
   height: 60px;
+}
+
+.job {
+  padding: 20px 30px;
+}
+
+.job-item {
+  margin-bottom: 30px;
+}
+
+.job-stuff {
+  color: #343434;
+}
+
+.job-timing {
+  color: #73808D;
 }
 
 @media (max-width: 1439px) {
