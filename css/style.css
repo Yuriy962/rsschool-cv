@@ -24,6 +24,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 18px;
 }
 
 body {
@@ -72,6 +73,7 @@ h6 {
 
 p {
   margin: 10px 0;
+  font-size: 1rem;
 }
 
 a {
@@ -83,8 +85,14 @@ a:hover {
   color: #E025CE;
 }
 
+.text > p,
+.text > strong {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+}
+
 .section {
-  padding: 20px 20px;
+  padding: 25px 20px;
 }
 
 .container,
@@ -106,7 +114,7 @@ a:hover {
 
 .heading {
   position: relative;
-  overflow: hidden;
+  padding-bottom: 10px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -115,6 +123,7 @@ a:hover {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .heading:after, .heading:before {
@@ -136,6 +145,7 @@ a:hover {
   -webkit-border-radius: 10px;
           border-radius: 10px;
   font-weight: 600;
+  white-space: nowrap;
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
@@ -168,10 +178,10 @@ a:hover {
 
 .side--right {
   margin-left: 15px;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
   background-color: #ffffff;
 }
 
@@ -388,6 +398,68 @@ h1 {
   background: url("../assets/png/tg.png") center/cover no-repeat;
   width: 28px;
   height: 28px;
+}
+
+.skills-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  list-style: none;
+  padding: 20px 0;
+}
+
+.skills-item {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-basis: 33.3%;
+      -ms-flex-preferred-size: 33.3%;
+          flex-basis: 33.3%;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.skills-item-head {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgba(196, 196, 196, 0.4);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills-item p {
+  font-size: 22px;
+}
+
+.skills-img {
+  height: 60px;
 }
 
 @media (max-width: 1439px) {
