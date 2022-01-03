@@ -232,10 +232,36 @@ a:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background: rgba(196, 196, 196, 0.35);
+  background: rgba(146, 157, 218, 0.9);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   z-index: 10;
+}
+
+.header-inner {
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.logo {
+  width: 75px;
+}
+
+.logo-img {
+  width: 100%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 
 .nav-list {
@@ -292,6 +318,42 @@ a:hover {
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+.hamburger {
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: none;
+}
+
+.hamburger span {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  margin-bottom: 5px;
+  display: block;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.hamburger--active span:nth-child(1) {
+  margin-bottom: -2px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.hamburger--active span:nth-child(2) {
+  display: none;
+}
+
+.hamburger--active span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 h1 {
@@ -395,6 +457,7 @@ h1 {
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
+  cursor: pointer;
 }
 
 .contacts-item::before {
@@ -600,6 +663,55 @@ h1 {
   color: #81a2be;
 }
 
+.footer {
+  padding: 10px 0;
+  background-color: #545454;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.footer-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-item {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.footer .github {
+  font-size: 22px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .github-img {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.footer .github p span {
+  font-size: 22px;
+  display: block;
+}
+
 @media (max-width: 1439px) {
   .container,
   .main-wrapper {
@@ -675,9 +787,47 @@ h1 {
   .heading:before {
     display: inline-block;
   }
+  .code {
+    font-size: 17px;
+  }
+  .code pre {
+    overflow: auto;
+  }
+  .nav {
+    position: absolute;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(146, 157, 218, 0.9);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+  }
+  .nav--active {
+    left: 0;
+  }
+  .nav-list {
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hamburger {
+    display: block;
+  }
 }
 
 @media (max-width: 575px) {
+  html {
+    font-size: 14px;
+  }
   .container,
   .main-wrapper {
     max-width: 100%;
@@ -706,6 +856,43 @@ h1 {
     text-align: center;
   }
   .heading > h2 {
-    font-size: 22px;
+    font-size: 17px;
+  }
+  .language {
+    max-width: 100%;
+  }
+  .skills-item {
+    -webkit-flex-basis: 25%;
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+  }
+  .skills-item-head {
+    width: 5.5rem;
+    width: 5.5rem;
+  }
+  .skills-item p {
+    font-size: 19px;
+  }
+  .skills-img {
+    height: 45px;
+  }
+  .section:first-child {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .skills-list {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
