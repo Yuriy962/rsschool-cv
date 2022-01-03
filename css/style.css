@@ -700,6 +700,7 @@ h1 {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #fff;
 }
 
 .footer .github-img {
