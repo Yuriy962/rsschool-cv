@@ -16,7 +16,9 @@ Hello!
 My name is Yuriy, and I'm from Samara. I'm 24.  
 I work as web-developer about 2 years.I started working with PHP and some CMS as Bitrix, ModX, Joomla (etc). But my goal is developing in frontend. It was the reason why I learned HTML, CSS, JavaScript(including jQuery library). And now I'm a layout specialist.
 
-My character strengths are sociability, responsibility, determination, pedantry. And I have good analytical skills and my real ambition is to be qualified front-end developer.
+
+My strong points are responsibility, purposefulness, pedantry. I have good analytical skills and clear goal - i want to become strong front-end developer in the world of web-development. 
+
 
 ## Skills
 * HTML, BEM;
@@ -26,35 +28,10 @@ My character strengths are sociability, responsibility, determination, pedantry.
 * Git, Github
 * Gulp;
 * PHP (the basics);
-* 1C-Bitrix, ModX, Joomla.
+* 1C-Bitrix, ModX.
 
 ## Example of My Code
-The fragment of HTML and JS code for menu of landing page.  
-__HTML__
-```html
-    <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <nav class="menu">
-        <ul class="menu__list">
-            <li class="menu__item">
-                <a href="#why" class="menu__link">Почему ALL-ON-4</a>
-            </li>
-            <li class="menu__item">
-                <a href="#price" class="menu__link">Что входит в стоимость</a>
-            </li>
-            <li class="menu__item">
-                <a href="#certificates" class="menu__link">Сертификаты</a>
-            </li>
-            <li class="menu__item">
-                <a href="#contacts" class="menu__link">Контакты</a>
-            </li>
-        </ul>
-    </nav>
-```
-__JavaScript__
+
 ``` javascript
 	// open and close mobile menu
     const menu = document.querySelector('.menu'),
